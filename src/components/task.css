@@ -1,0 +1,33 @@
+.container-task{
+    background-color: #444;
+    margin: 8px 0;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #eee;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.container-title{
+ width: 100%;
+ padding: 12px 0;
+ cursor: pointer;
+ color: #eee;
+ display: flex;
+}
+.remove-task-buttons, .see-details-buttons{
+    border: none;
+    background-color: #444;
+    color: chartreuse;
+    font-size: 22px;
+    display: flex;
+    margin-right: 5px;
+}
+
+.container-button{
+display: flex;
+}
